@@ -1,0 +1,32 @@
+﻿<Window x:Class="Lab3.UpdateFlight"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab3"
+        mc:Ignorable="d"
+        Title="UpdateFlight" Height="450" Width="400
+        " Background="#FF2E4DA0">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Height="11" Margin="0,57,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="0" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="107.106"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Label x:Name="idLB" Content="Identifier" HorizontalAlignment="Left" Height="42" Margin="44,44,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="originLB" Content="Origin" HorizontalAlignment="Left" Height="37" Margin="44,118,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="destinationLB" Content="Destination" HorizontalAlignment="Left" Height="40" Margin="44,195,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="passLB" Content="Passengers" HorizontalAlignment="Left" Height="37" Margin="44,276,0,0" VerticalAlignment="Top" Width="118" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="idTB" HorizontalAlignment="Left" Height="42" Margin="232,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+        <TextBox x:Name="orgTB" HorizontalAlignment="Left" Height="42" Margin="232,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104" />
+        <TextBox x:Name="destTB" HorizontalAlignment="Left" Height="42" Margin="232,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+        <TextBox x:Name="passTB" HorizontalAlignment="Left" Height="42" Margin="232,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="104"/>
+        <Button x:Name="submitB" Content="Submit" HorizontalAlignment="Left" Height="45" Margin="103,333,0,0" VerticalAlignment="Top" Width="181" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
